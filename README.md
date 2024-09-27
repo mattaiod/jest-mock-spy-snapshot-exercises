@@ -1,1 +1,0 @@
-# jest-mock-spy-snapshot-exercises
