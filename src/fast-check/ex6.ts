@@ -1,3 +1,6 @@
-// => Vérification de l'ordre de tri
-// Objectif : Tester qu'une fonction de tri sur des nombres entiers retourne un tableau ordonné de façon croissante.
-const sort = (arr: number[]): number[] => arr.sort((a, b) => a - b);
+//Objectif : Générer des objets avec des propriétés imbriquées et vérifier que certaines propriétés sont toujours présentes.
+
+const createNestedObject = (name: string, id: number) => ({
+  user: { id, name },
+  timestamp: Date.now(),
+});

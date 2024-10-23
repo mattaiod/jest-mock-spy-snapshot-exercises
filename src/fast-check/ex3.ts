@@ -1,4 +1,4 @@
-// => Génération de chaînes de caractères avec une longueur minimale
-// Objectif : Vérifier que les chaînes générées par createUser(name) ont une longueur minimale de 5 caractères.
-// Indication : Utilisez fc.string({ minLength: 5 }) pour restreindre la longueur.
-const createUser = (name: string) => ({ id: Math.random(), name });
+// =>  Vérification que l'inverse d'un nombre est correct
+// Objectif : Tester que inverse(inverse(a)) retourne toujours a.
+// Indication : Utilisez integer() pour générer des nombres, et vérifiez que l'inverse appliqué deux fois retourne la valeur d'origine.
+const inverse = (a: number): number => -a;

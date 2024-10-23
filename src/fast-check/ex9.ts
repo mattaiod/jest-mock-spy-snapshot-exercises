@@ -1,5 +1,4 @@
-// => Test de génération de tableaux uniques
+//Objectif : Générer des objets et vérifier que les propriétés id sont toujours des nombres (quand on fournit un nombre) et que les noms ont une longueur minimale de 3 caractères (quand on fournit une longueur de 3 chars min)
 
-// Objectif : Tester qu'un tableau généré contient uniquement des éléments uniques.
-
-const uniqueArray = (arr: number[]): number[] => Array.from(new Set(arr));
+// Fonction de création d'un objet utilisateur
+const createUser = (id: number, name: string) => ({ id, name });

@@ -1,5 +1,4 @@
-// Objectif : Générer une structure d'arborescence avec des valeurs récursives.
-// Indication : Il existe une méthode pour faire des appels récursifs dans fast-check
-type Tree = { value: number; children: Tree[] };
+//Objectif : Générer des tableaux imbriqués et vérifier que la longueur totale des éléments d’un tableau après "aplatissement" correspond à la somme des longueurs des sous-tableaux.
 
-const createTree = (value: number): Tree => ({ value, children: [] });
+// Fonction pour aplatir un tableau imbriqué
+const flattenArray = <T>(arr: T[][]): T[] => arr.flat();

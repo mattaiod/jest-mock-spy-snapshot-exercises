@@ -1,5 +1,3 @@
-// => Génération de données aléatoires dans un intervalle
-// Objectif : Tester que des nombres générés dans l'intervalle [min, max] respectent cette contrainte.
+//Objectif : Vérifiez que la division par un nombre autre que zéro produit un résultat valide. La division d’un nombre par 1 doit toujours donner ce même nombre.
 
-const randomInRange = (min: number, max: number): number =>
-  Math.random() * (max - min) + min;
+const divide = (a: number, b: number): number => a / b;

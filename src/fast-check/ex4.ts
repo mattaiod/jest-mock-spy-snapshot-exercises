@@ -1,4 +1,2 @@
-// =>  Vérification que l'inverse d'un nombre est correct
-// Objectif : Tester que inverse(inverse(a)) retourne toujours a.
-// Indication : Utilisez integer() pour générer des nombres, et vérifiez que l'inverse appliqué deux fois retourne la valeur d'origine.
-const inverse = (a: number): number => -a;
+//Objectif : Générer des objets et vérifier que certaines propriétés sont toujours présentes et respectent des types spécifiques.
+const createPerson = (name: string, age: number) => ({ name, age });

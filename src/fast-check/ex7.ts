@@ -1,7 +1,2 @@
-// => Génération d'objets
-// Objectif : Vérifier que les objets générés ont toujours une clé id de type nombre et une clé name de type chaîne de caractères.
-
-const createObject = (): { id: number; name: string } => ({
-  id: Math.random(),
-  name: "Test",
-});
+//Objectif : Vérifiez que l'ajout d'un élément dans un tableau augmente sa longueur de 1.
+const addToArray = <T>(arr: T[], element: T): T[] => [...arr, element];
