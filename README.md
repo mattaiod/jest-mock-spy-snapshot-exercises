@@ -21,8 +21,9 @@ pnpm i
 
 ## Structure du Projet
 
-- Les **exercices** se trouvent dans le dossier **exercices**.
+- Les **exercices mock, spies, snapshot** se trouvent dans le dossier **mock-spies-snapshot**.
 - Les **tests** doivent être écrits et placés dans le dossier **`__tests__`**.
+- Les **exercices fast-check** se trouvent dans le dossier **fast-check**.
 
 ## Exécution des Tests
 
